@@ -1,0 +1,373 @@
+html{margin:0;padding:0}
+body{margin:0;padding:0; font-family:Verdana; font-size:12px;line-height:21px;}
+a, input, textarea{outline:none; text-decoration:none;}
+h1, h2, h3, h4{margin:0; padding:0}
+img{border:none;}
+.clr{clear:both;}
+
+body.home{background:url(../images/home-bg.png) repeat-x #fff;}
+.MainTemplate{margin:0 auto; width:1024px;}
+.page{width:920px; margin:0 auto; position:relative;}
+.Header{
+	padding-top:28px;
+}
+.MainMenu{
+	padding-top:10px;
+}
+.MainMenu ul{
+	margin:0;
+	padding:0;
+}
+.MainMenu ul li{
+	list-style:none;
+	float:left;
+	padding:0 7px;
+}
+.MainMenu ul li a{
+	color:#fff;
+	background:#000;
+	display:block;
+	padding:5px 4px;
+	text-transform:lowercase;
+	font-size:14px;
+}
+.MainMenu li.active a, .MainMenu li:hover a{
+	color:#000;
+	background:#df061e;
+}
+.topbird{
+	background:url(../images/top-crow.png) no-repeat;
+	height: 65px;
+	position: absolute;
+	right: 40px;
+	top: 42px;
+	width: 62px;
+}
+.spotlight1{
+	background:url(../images/spot-light1.png) no-repeat;
+	height: 178px;
+	left: 20px;
+	position: absolute;
+	top: 138px;
+	width: 116px;
+}
+.spotlight2{
+	background:url(../images/spot-light2.png) no-repeat;
+	height: 91px;
+	position: absolute;
+	right: 196px;
+	top: 138px;
+	width: 78px;
+}
+.sky-1{
+	background:url(../images/sky-1.png) no-repeat;
+	height: 107px;
+	position: absolute;
+	right: 86px;
+	top: 38px;
+	width: 187px;
+	z-index: -1;
+}
+.sky-2{
+	background:url(../images/sky-2.png) no-repeat;
+	height: 109px;
+	left: 1px;
+	position: absolute;
+	top: 141px;
+	width: 190px;
+	z-index: -1;
+}
+.sky-3{
+	background:url(../images/sky-3.png) no-repeat;
+	height: 112px;
+	left: -12px;
+	position: absolute;
+	top: 360px;
+	width: 167px;
+	z-index: -1;
+}
+.bird{
+	background:url(../images/middle-crow.png) no-repeat;
+	height: 69px;
+	left: 560px;
+	position: absolute;
+	top: 264px;
+	width: 102px;
+	z-index: 3;
+}
+.leg{
+	background:url(../images/running-man.png) no-repeat;
+	height: 354px;
+	right: 40px;
+	position: absolute;
+	top: 228px;
+	width: 235px;
+	z-index: 3;
+}
+.BodyText {
+	background-color: #4b82ad;
+	width: 390px;
+	height: auto;
+	padding: 5px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+}
+.smallbox{
+	background:#42a091;
+	border-radius: 11px 11px 11px 11px;
+	float: right;
+	height: auto;
+	padding: 5px;
+	position: absolute;
+	right: 4px;
+	top: 580px;
+	width: 132px;
+	color:#fff;
+}
+.Bottommodule {
+  padding-right: 18px;
+  padding-top: 20px;
+}
+.box h2.title{
+	font-weight:normal;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	padding-left:5px;
+}
+.module {
+  padding: 40px 0 0 170px;
+}
+.shortdes p{
+	margin:0;
+	padding:0;
+}
+.shortdes p span{
+	color:#df061e;
+}
+.shortdes .lasttext, .shortdes .lasttext a{
+  color: #FFFFFF;
+}
+.shortdes .lasttext a{
+	text-decoration:underline;
+}
+.Footer{
+	margin:0 auto;
+	width:960px;
+}
+.tree1{
+	background:url(../images/boom.png) no-repeat;
+	height: 536px;
+	position: absolute;
+	right: 184px;
+	top: 448px;
+	width: 214px;
+}
+.tree2{
+	background:url(../images/boom-kopie.png) no-repeat;
+	height: 453px;
+	left: -30px;
+	position: absolute;
+	top: 531px;
+	width: 156px;
+}
+.socialicon ul{
+	margin:0;
+	padding:0;
+}
+.socialicon ul li{
+	list-style:none;
+	float:left;
+	padding:0 4px;
+}
+.socialicon ul li a{
+	display:block;
+	background:url(../images/facebook.png) no-repeat;
+	width:39px;
+	height:40px;
+}
+.socialicon ul li.twitter a{
+	background:url(../images/twitter.png) no-repeat;
+}
+.socialicon {
+  position: absolute;
+  right: 46px;
+  top: 146px;
+  z-index: 1000;
+}
+
+.schoonbodytext{
+background-color: #FFFFFF;
+border-radius: 11px 11px 11px 11px;
+float: left;
+font-family: verdana;
+font-size: 12px;
+height: auto;
+padding: 23px 10px;
+width: 362px;
+}
+.schoonspancolor{
+color:#e8485a;
+}
+.spoonmodule{
+padding: 21px 0 0 9px;
+}
+
+.spoonsmallbox{
+background: none repeat scroll 0 0 #65AEC2;
+border-radius: 11px 11px 11px 11px;
+color: #FFFFFF;
+float: right;
+height: auto;
+padding: 5px 5px 5px 14px;
+position: absolute;
+right: 43px;
+top: 439px;
+width: 445px;
+}
+.black{
+color:#000;
+text-decoration:underline;
+}
+
+.spoonmodule .spoonimagetitle{
+float: right;
+width: 508px;
+}
+.spoonlight3{
+background: url("../images/spot-light2.png") no-repeat scroll 0 0 transparent;
+height: 91px;
+position: absolute;
+right: 453px;
+top: 512px;
+width: 78px;
+}
+.spoontree1{
+background: url("../images/treeright.png") no-repeat scroll 0 0 transparent;
+height: 428px;
+position: absolute;
+right: 240px;
+top: 518px;
+width: 169px;
+}
+.spoontree2{
+background: url("../images/treeleft.png") no-repeat scroll 0 0 transparent;
+height: 361px;
+left: 42px;
+position: absolute;
+top: 581px;
+width: 136px;
+}
+.spoonleg{
+background: url("../images/runningman2.png") no-repeat scroll 0 0 transparent;
+height: 196px;
+position: absolute;
+right: 39px;
+top: 501px;
+width: 129px;
+z-index: 3;
+}
+.leftimg{
+display: block;
+float: left;
+width: 321px;
+}
+.rightimg{
+float: left;
+padding-left: 26px;
+padding-top: 39px;
+width: 110px;
+}
+.spoonfooter{
+margin: 0 auto;
+padding-left: 102px;
+padding-top: 99px;
+width: 960px;
+}
+.topbird2{
+background: url("../images/smallbird.png") no-repeat scroll 0 0 transparent;
+height: 45px;
+position: absolute;
+right: 719px;
+top: 604px;
+width: 38px;
+}
+body.homesecond{background:url(../images/achter-bg.png) repeat-x #fff;}
+.spoonimagetitle .leftimg{
+background:url(../images/spoonvideopic.png) no-repeat left;
+display: block;
+height: 250px;
+width: 319px;
+}
+.leftimg .leftfontstyle{
+padding-left: 21px;
+padding-top: 220px;
+font-size:12px;
+font-family:Verdana;
+color:#000;
+}
+.white{
+color:#fff;
+text-decoration:underline;
+}
+.schoonbodytext h2{
+font-size:12px;
+font-family:Verdana;
+}
+.achterdebarkentext {
+background-color: #FFFFFF;
+border-radius: 11px 11px 11px 11px;
+float: left;
+font-family: verdana;
+font-size: 12px;
+height: auto;
+padding: 8px 10px 10px 10px;
+width: 362px;
+}
+.spoonlight4{
+background: url("../images/spot-light3.png") no-repeat scroll 0 0 transparent;
+height: 122px;
+position: absolute;
+right: 453px;
+top: 505px;
+width: 71px;
+}
+.achtertree1{
+background: url("../images/treeright.png") no-repeat scroll 0 0 transparent;
+height: 428px;
+position: absolute;
+right: 240px;
+top: 518px;
+width: 169px;
+}
+.achtertree2{
+background: url("../images/treeleft.png") no-repeat scroll 0 0 transparent;
+height: 361px;
+left: 42px;
+position: absolute;
+top: 581px;
+width: 136px;
+}
+.achterfooter {
+margin: 0 auto;
+padding-bottom: 39px;
+padding-left: 102px;
+padding-top: 44px;
+width: 960px;
+}
+
+.spoonimagetitle .achterdeberleftimg{
+background: url("../images/videophoto.png") no-repeat scroll left center transparent;
+display: block;
+height: 250px;
+width: 319px;
+float:left;
+}
+.achterdeberleftimg .leftfontstyle{
+color: #000000;
+font-family: Verdana;
+font-size: 12px;
+padding-left: 21px;
+padding-top: 220px;
+}
